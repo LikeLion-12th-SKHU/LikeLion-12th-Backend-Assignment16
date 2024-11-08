@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/likelionrecrud
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+imp:
+  api:
+    client-code: imp53634743
+    key: 6665735667771020
+    secret-key: r3WH16K39OToAT80Rsy2jWkDUK5nvQgm2fSBvXArKMFnxdTUMYKBTiMk4EOvk1turvE9K2zYMJemnWai
