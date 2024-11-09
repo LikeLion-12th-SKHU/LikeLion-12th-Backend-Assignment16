@@ -22,7 +22,7 @@ public class OrderService {
     public Order createOrder(Member member) {
         // 임시 결제내역 생성
         Payment payment = Payment.builder()
-                .price(1000L)
+                .price(10000L)
                 .status(Status.PENDING)
                 .build();
 
@@ -30,7 +30,7 @@ public class OrderService {
 
         // 주문 생성
         Order order = Order.builder()
-                .productName("MacBook")
+                .productName("빼빼로_오리지날_8갑")
                 .price(1000L)
                 .orderUid(UUID.randomUUID().toString())
                 .member(member)

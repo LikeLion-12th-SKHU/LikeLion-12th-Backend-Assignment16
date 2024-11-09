@@ -19,7 +19,7 @@ public class MemberService {
         Member member = Member.builder()
                 .name(UUID.randomUUID().toString())
                 .email("payment@example.com")
-                .address("서울특별시 구로구")
+                .address("경기도 양평군")
                 .build();
 
         return memberRepository.save(member);
