@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/test
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+imp:
+  api:
+    client-code: imp45233648
+    key: 3002517461251754
+    secret-key: stT2YfUEs49k2ONo8iJf9bX1OMIvArr8JBCVjvVMlXQCCh1VlcuaQW86wHGJRVPFbrThZjZ9NkO5PGT9
